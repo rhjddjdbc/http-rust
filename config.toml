@@ -1,0 +1,10 @@
+# config.toml
+host = "127.0.0.1"
+port = 7878
+threads = 4
+
+[rate_limiter]
+enabled = true
+window_seconds = 60
+max_requests = 10
+
