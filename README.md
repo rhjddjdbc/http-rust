@@ -30,7 +30,7 @@ Example `config.toml`:
 
 ```toml
 host = "127.0.0.1"
-port = 8080
+port = 7878
 threads = 4
 
 [rate_limiter]
@@ -57,7 +57,7 @@ The server serves files from the `public` directory relative to the current work
    ./target/release/rust-http-server
    ```
 
-3. Open a browser and visit `http://<host>:<port>` (e.g., `http://127.0.0.1:8080`).
+3. Open a browser and visit `http://<host>:<port>` (e.g., `http://127.0.0.1:7878`).
 
 ## Notes
 
